@@ -1,0 +1,103 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    background-color: #F0F2F5;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline;
+    padding: 3px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.name{
+    font-weight: bold;
+    font-size: large;
+    margin: 0px;
+    padding:  0px;
+    margin-bottom: 2px;
+    /* margin-top: 5px;
+    padding-top: 10px; */
+    color: black;
+}
+.profilename{
+    color: #76787B;
+
+}
+
+.post{
+width: 500px;
+height: 320px;
+}
+
+.body{
+  background-color :  #FFFFFF ;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.buttons{
+    margin: 2px;
+   
+    margin-bottom: 20px;
+    border-top: 1px solid #CED0D4;
+    border-bottom: 1px solid #CED0D4;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 5px;
+   
+    
+}
+button{
+    border: 0px;
+    background-color: white;
+    color: #5B626A;
+    font-size: large;
+    padding: 5px;
+    padding: 5px 54px;
+    cursor: pointer;
+}
+   
+
+
+button:hover{
+    background-color: #F2F2F2;
+}
+
+.interaction{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    color: #76787B;
+}
+
+.text{
+    padding: 3px;
+}
